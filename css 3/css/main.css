@@ -37,7 +37,7 @@ body {
 	height: 100px;
 }
 
-.ml {
+.ml {-top
 	margin-left: -4px;
 }
 
@@ -63,4 +63,41 @@ body {
 	margin: -5px;
 }
 
+.box {
+	width: 250px;
+	background-color: #fff;
+	padding: 10px;
+	margin-top: 20px;
+	position: relative;
+}
 
+.box img {
+	width: 100%	;
+}
+
+.box span {
+	background-color: green;
+	color:#fff;
+	padding: 2px 6px;
+	position: absolute;/*absolute,relative,*/
+	top:10px;
+	right: 10px;
+}
+
+.menu {
+	background-color: #909090;
+	position: fixed;
+	top: -20px;
+	left: 0;
+	width: 100%;
+}
+/* lis display always default block */
+.menu li {
+	display: inline-block;
+	padding: 8px;
+}
+
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+}
